@@ -1,0 +1,26 @@
+# Playwright 浏览器自动化框架
+playwright==1.42.0
+
+# HTTP请求库 用于API测试
+requests==2.31.0
+httpx==0.25.0
+
+# pytest 测试框架及插件
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-xdist==3.5.0              # 并行测试执行
+pytest-html==4.1.1               # HTML报告
+pytest-timeout==2.2.0            # 测试超时控制
+pytest-retry==1.6.1              # 失败重试
+
+# 日志和配置
+python-dotenv==1.0.0             # 环境变量管理
+coloredlogs==15.0.1              # 彩色日志输出
+
+# 数据验证
+pydantic==2.5.0                  # 数据验证库
+jsonschema==4.20.0               # JSON Schema验证
+
+# 其他工具
+python-dateutil==2.8.2           # 日期时间处理
+uuid6==1.0.3                     # UUID生成
